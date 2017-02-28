@@ -1,2 +1,3 @@
 include ':qrcodedemo', ':actionSheetLibrary', ':barcodeScannerCore', ':mvpdemo', ':ganhuo', ':mddemo', ':birch', ':singleinstance', ':wheelviewdemo', ':socketdemo'
 include ':titleBarColor'
+include ':socketdemo'

@@ -12,7 +12,26 @@
     tools:context="com.dean.study.socketdemo.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/message_tv"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:text=""/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/msg_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="发送"/>
+    </LinearLayout>
 </RelativeLayout>
