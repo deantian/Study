@@ -1,3 +1,4 @@
-include ':qrcodedemo', ':actionSheetLibrary', ':barcodeScannerCore', ':mvpdemo', ':ganhuo', ':mddemo', ':birch', ':singleinstance', ':wheelviewdemo', ':socketdemo'
-include ':titleBarColor'
-include ':socketdemo'
+//include ':qrcodedemo', ':actionSheetLibrary', ':barcodeScannerCore', ':mvpdemo', ':ganhuo', ':mddemo', ':birch', ':singleinstance', ':wheelviewdemo', ':socketdemo', ':webdemo'
+//include ':titleBarColor'
+//include ':socketdemo'
+include ':webdemo'
